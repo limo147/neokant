@@ -26,9 +26,9 @@ Route::get('/google198c15353f62bb77.html', function () {
     return view('google198c15353f62bb77');
 });
 
-Route::get('/sitemap.xml', function () {
+Route::get('/newsitemap.xml', function () {
     
-    $xmlString = file_get_contents(public_path('sitemap.xml'));
+    $xmlString = file_get_contents(public_path('newsitemap.xml'));
     $xmlObject = simplexml_load_string($xmlString);
                
     $json = json_encode($xmlObject);
