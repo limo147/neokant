@@ -6,199 +6,212 @@
 
         <title>Neokant-Moon</title>
 
-        <!-- Fonts -->
+        <meta name="keywords" content="雪藏月餅">
+
+        <meta name="description" content="高品質月餅領導品牌，專為對品質要求的你，提供優質的雪藏月餅。經典雪藏月餅、落英雪藏月餅、冰心可可月餅、中秋禮盒、 ... 送禮最佳伴手禮、犒賞自己的美味、糕餅中的精品。">
+        
+        <!-- 分享時顯示 -->
+        <meta property="og:title" content="高品質、雪藏月餅領導品牌，紐康特之月">
+        <meta property="og:type" content="高品質月餅領導品牌，專為對品質要求的你，提供優質的雪藏月餅。經典雪藏月餅、落英雪藏月餅、冰心可可月餅、中秋禮盒、 ... 送禮最佳伴手禮、犒賞自己的美味、糕餅中的精品。">
+        <meta property="og:url" content="https://neokantmoon.herokuapp.com/">
+        <meta property="og:image" content="https://images.pexels.com/photos/5754268/pexels-photo-5754268.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500">
+
+        <link rel="index" title="Neokant-Moon【紐康特之月】" href="https://neokantmoon.herokuapp.com/">
+        
+        <link rel="sitemap" type="htm" title="Neokant-Moon【紐康特之月】" href="https://neokantmoon.herokuapp.com/Sitemap.xml">
+
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
 
-        <!-- Styles -->
+
         <style>
- * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+            * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            }
 
-*:before, *:after {
-  content: '';
-  display: block;
-  position: absolute;
-}
+            *:before, *:after {
+            content: '';
+            display: block;
+            position: absolute;
+            }
 
-body {
-  height: 100vh;
-  background: #eee;
-  overflow: hidden;
-}
+            body {
+            height: 100vh;
+            background: #eee;
+            overflow: hidden;
+            }
 
-.landscape {
-  position: relative;
-  height: 650px;
-  background: #234;
-  overflow: hidden;
-}
+            .landscape {
+            position: relative;
+            height: 650px;
+            background: #234;
+            overflow: hidden;
+            }
 
-.moon {
-  position: absolute;
-  left: 55%;
-  bottom: 100px;
-  width: 350px;
-  height: 350px;
-  margin: 0 0 0 -50px;
-  border-radius: 50%;
-  background: #ccc;
-}
+            .moon {
+            position: absolute;
+            left: 55%;
+            bottom: 100px;
+            width: 350px;
+            height: 350px;
+            margin: 0 0 0 -50px;
+            border-radius: 50%;
+            background: #ccc;
+            }
 
-/* .moon:after {
-  top: 100px;
-  left: 100px;
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  background: rgba(0, 0, 0, 0.1);
-  box-shadow: 120px 80px 0 rgba(0, 0, 0, 0.1), 100px -60px 0 -20px rgba(0, 0, 0, 0.1), -70px 40px 0 -20px rgba(0, 0, 0, 0.1), -20px -50px 0 -15px rgba(0, 0, 0, 0.1), -20px 120px 0 -15px rgba(0, 0, 0, 0.1), 50px 50px 0 -15px rgba(0, 0, 0, 0.1);
-} */
+            /* .moon:after {
+            top: 100px;
+            left: 100px;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background: rgba(0, 0, 0, 0.1);
+            box-shadow: 120px 80px 0 rgba(0, 0, 0, 0.1), 100px -60px 0 -20px rgba(0, 0, 0, 0.1), -70px 40px 0 -20px rgba(0, 0, 0, 0.1), -20px -50px 0 -15px rgba(0, 0, 0, 0.1), -20px 120px 0 -15px rgba(0, 0, 0, 0.1), 50px 50px 0 -15px rgba(0, 0, 0, 0.1);
+            } */
 
-/* .tree {
-  position: absolute;
-  left: 50%;
-  bottom: 0;
-  margin: 0 0 0 -320px;
-} */
+            /* .tree {
+            position: absolute;
+            left: 50%;
+            bottom: 0;
+            margin: 0 0 0 -320px;
+            } */
 
-/* .tree div {
-  position: relative;
-  float: left;
-  display: block;
-  width: 6px;
-  height: 8px;
-  margin: 0 30px -5px 0;
-  background: #eee;
-} */
-/* 
-.tree div:before {
-  bottom: 8px;
-  border: solid transparent;
-  content: " ";
-  height: 0;
-  width: 0;
-  position: absolute;
-  border-bottom-color: #eee;
-  border-width: 12px;
-  left: 50%;
-  margin-left: -12px;
-}
+            /* .tree div {
+            position: relative;
+            float: left;
+            display: block;
+            width: 6px;
+            height: 8px;
+            margin: 0 30px -5px 0;
+            background: #eee;
+            } */
+            /* 
+            .tree div:before {
+            bottom: 8px;
+            border: solid transparent;
+            content: " ";
+            height: 0;
+            width: 0;
+            position: absolute;
+            border-bottom-color: #eee;
+            border-width: 12px;
+            left: 50%;
+            margin-left: -12px;
+            }
 
-.tree div:after {
-  bottom: 15px;
-  border: solid transparent;
-  content: " ";
-  height: 0;
-  width: 0;
-  position: absolute;
-  border-bottom-color: #eee;
-  border-width: 10px;
-  left: 50%;
-  margin-left: -10px;
-}
+            .tree div:after {
+            bottom: 15px;
+            border: solid transparent;
+            content: " ";
+            height: 0;
+            width: 0;
+            position: absolute;
+            border-bottom-color: #eee;
+            border-width: 10px;
+            left: 50%;
+            margin-left: -10px;
+            }
 
-.tree div span:before {
-  bottom: 22px;
-  border: solid transparent;
-  content: " ";
-  height: 0;
-  width: 0;
-  position: absolute;
-  border-bottom-color: #eee;
-  border-width: 8px;
-  left: 50%;
-  margin-left: -8px;
-}
+            .tree div span:before {
+            bottom: 22px;
+            border: solid transparent;
+            content: " ";
+            height: 0;
+            width: 0;
+            position: absolute;
+            border-bottom-color: #eee;
+            border-width: 8px;
+            left: 50%;
+            margin-left: -8px;
+            }
 
-.tree div span:after {
-  bottom: 28px;
-  border: solid transparent;
-  content: " ";
-  height: 0;
-  width: 0;
-  position: absolute;
-  border-bottom-color: #eee;
-  border-width: 6px;
-  left: 50%;
-  margin-left: -6px;
-} */
+            .tree div span:after {
+            bottom: 28px;
+            border: solid transparent;
+            content: " ";
+            height: 0;
+            width: 0;
+            position: absolute;
+            border-bottom-color: #eee;
+            border-width: 6px;
+            left: 50%;
+            margin-left: -6px;
+            } */
 
-.hills {
-  position: absolute;
-  left: 50%;
-  bottom: 0;
-}
+            .hills {
+            position: absolute;
+            left: 50%;
+            bottom: 0;
+            }
 
-.hills div {
-  overflow: hidden;
-  border-radius: 8%;
-  transform: rotate(45deg);
-}
+            .hills div {
+            overflow: hidden;
+            border-radius: 8%;
+            transform: rotate(45deg);
+            }
 
-.hills div:nth-child(1),
-.hills div:nth-child(2),
-.hills div:nth-child(3) {
-  position: absolute;
-  bottom: -350px;
-  width: 500px;
-  height: 500px;
-  background: #293d52;
-}
+            .hills div:nth-child(1),
+            .hills div:nth-child(2),
+            .hills div:nth-child(3) {
+            position: absolute;
+            bottom: -350px;
+            width: 500px;
+            height: 500px;
+            background: #293d52;
+            }
 
-.hills div:nth-child(1) {
-  left: -750px;
-}
+            .hills div:nth-child(1) {
+            left: -750px;
+            }
 
-.hills div:nth-child(2) {
-  left: -250px;
-}
+            .hills div:nth-child(2) {
+            left: -250px;
+            }
 
-.hills div:nth-child(3) {
-  left: 250px;
-}
+            .hills div:nth-child(3) {
+            left: 250px;
+            }
 
-.hills div:nth-child(4),
-.hills div:nth-child(5) {
-  position: absolute;
-  bottom: -400px;
-  left: -600px;
-  width: 500px;
-  height: 500px;
-  background: #30475f;
-}
+            .hills div:nth-child(4),
+            .hills div:nth-child(5) {
+            position: absolute;
+            bottom: -400px;
+            left: -600px;
+            width: 500px;
+            height: 500px;
+            background: #30475f;
+            }
 
-.hills div:nth-child(4) {
-  left: -500px;
-}
+            .hills div:nth-child(4) {
+            left: -500px;
+            }
 
-.hills div:nth-child(5) {
-  left: 0;
-}
+            .hills div:nth-child(5) {
+            left: 0;
+            }
 
-canvas {
-  position: absolute;
-  top: 100px;
-  left: 0;
-  z-index: 1;
-}
-a{
-    color: #000;
-    text-decoration: none;
-}
-a:hover{
-    color: darkblue;
+            canvas {
+            position: absolute;
+            top: 100px;
+            left: 0;
+            z-index: 1;
+            }
+            a{
+                color: #000;
+                text-decoration: none;
+            }
+            a:hover{
+                color: darkblue;
 
-}
+            }
 
-/* Codepen Preview Mode */
-@media only screen and (max-height: 450px) {
-  .landscape {
-    margin-top: -270px;
-  }
-}
+            /* Codepen Preview Mode */
+            @media only screen and (max-height: 450px) {
+            .landscape {
+                margin-top: -270px;
+            }
+            }
         </style>
         <meta name="google-site-verification" content="__1l5ceJQHoVz_6wDXmoO8EuLWpMWOGKrTv0Zsh6FRU" />
     </head>

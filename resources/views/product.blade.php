@@ -131,7 +131,7 @@ ul li {
   content: "";
   width: 13px;
   height: 13px;
-  background-color: #000000;
+  background-color: teal;
   border-radius: 50%;
   border: 2px solid rgba(0, 0, 0, 0);
   transition: 0.3s all ease;
@@ -204,7 +204,7 @@ ul li {
 .card {
   display: flex;
   align-items: center;
-  background: #252831 url(https://www.dropbox.com/s/fuadz3vmw2nsylm/bg.png?raw=1)
+  background: #252831 url(https://images.pexels.com/photos/300857/pexels-photo-300857.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=1000)
     no-repeat;
   height: 600px;
   width: 800px;
@@ -219,7 +219,7 @@ ul li {
   width: 330px;
   display: flex;
   align-items: center;
-  background-color:  #234;
+  background-color:  white;
   margin-left: 93px;
   border-radius: 0% 50% 50% 0%;
   position: absolute;
@@ -294,21 +294,25 @@ body {
           <h4><span class="fa fa-dollar"></span>150</h4>
         </div>
         <ul>
-          <li>SIZE</li>
-          <li class="bg">7</li>
-          <li class="bg">8</li>
-          <li class="bg">9</li>
-          <li class="bg">10</li>
-          <li class="bg">11</li>
+          <li>數量</li>
+          <li class="bg">100</li>
+          <li class="bg">200</li>
+          <li class="bg">300</li>
+          <li class="bg">400</li>
+          <li class="bg">500</li>
         </ul>
         <ul>
-          <li>COLOR</li>
+          <li>規格</li>
           <li class="yellow"></li>
           <li class="black"></li>
           <li class="blue"></li>
         </ul>
-        <span class="foot"><i class="fa fa-shopping-bag"></i>Buy Now</span>
-        <span class="foot"><i class="fa fa-shopping-cart"></i>Add TO Cart</span>
+        <button style="background-color:yellow;color:black;padding:10px 50px;margin-top:20px;">
+
+          Buy Now
+          <!-- <span class="foot"><i class="fa fa-shopping-cart"></i>Add TO Cart</span> -->
+
+        </button>
       </div>
     </div>
   </div>
