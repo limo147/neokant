@@ -180,10 +180,11 @@ body {
 
 canvas {
   position: absolute;
-  top: 0;
+  top: 100px;
   left: 0;
   z-index: 1;
 }
+
 
 /* Codepen Preview Mode */
 @media only screen and (max-height: 450px) {
@@ -194,6 +195,10 @@ canvas {
         </style>
     </head>
     <body>
+        <div style="padding:20px">
+            <h1>WELCOME HOME!</h1>
+            <p>CHILLY COZY</p>
+        </div>
     <div class='landscape'>
     <div class='moon'></div>
     <div class='hills'>
