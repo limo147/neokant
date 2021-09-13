@@ -193,6 +193,7 @@ canvas {
   }
 }
         </style>
+        <meta name="google-site-verification" content="__1l5ceJQHoVz_6wDXmoO8EuLWpMWOGKrTv0Zsh6FRU" />
     </head>
     <body>
         <div style="padding:20px">
