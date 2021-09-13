@@ -301,7 +301,7 @@
     <p  style="padding-top:20px;">CHILLY COZY</p>
   </div>
   <div style="display:flex;flex-direction:column;align-items:center;">
-    <p style="padding-top:20px;" >以零下-120度凍凝極致的月餅</p>
+    <p style="padding-top:20px;" >以零下-120度封藏的冰心月餅</p>
     <p style="padding-top:20px;" >每一口的品啜，都是雪藏的美</p>
 
   </div>
