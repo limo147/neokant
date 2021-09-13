@@ -26,9 +26,16 @@ Route::get('/google198c15353f62bb77.html', function () {
     return view('google198c15353f62bb77');
 });
 
-// Route::get('/sitemap.xml', function () {
-//     return view('sitemap.xml');
-// });
+Route::get('/sitemap.xml', function () {
+    
+    $xmlString = file_get_contents(public_path('sitemap.xml'));
+    $xmlObject = simplexml_load_string($xmlString);
+               
+    $json = json_encode($xmlObject);
+    $phpArray = json_decode($json, true); 
+
+    dd($phpArray);
+});
 
 Auth::routes();
 
