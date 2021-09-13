@@ -184,7 +184,14 @@ canvas {
   left: 0;
   z-index: 1;
 }
+a{
+    color: #000;
+    text-decoration: none;
+}
+a:hover{
+    color: darkblue;
 
+}
 
 /* Codepen Preview Mode */
 @media only screen and (max-height: 450px) {
@@ -197,8 +204,12 @@ canvas {
     </head>
     <body>
         <div style="padding:20px">
-            <h1>WELCOME HOME!</h1>
-            <p>CHILLY COZY</p>
+            <h1>
+                <a href="/">Neokantmoon</a>
+            </h1>
+
+
+            <p >紐康特之月- 雪藏月餅的精品</p>
         </div>
     <div class='landscape'>
     <div class='moon'></div>
@@ -267,6 +278,22 @@ canvas {
     </div>
   </div>
   <canvas id='snow'></canvas>
+  <div style="padding-top:20px;display:flex;flex-direction:column;align-items:center;">
+    <h2>
+        <a href="/product">
+            
+            WELCOME HOME!
+        </a>
+    </h2>
+    <p  style="padding-top:20px;">CHILLY COZY</p>
+  </div>
+  <div style="display:flex;flex-direction:column;align-items:center;">
+    <p style="padding-top:20px;" >以零下-120度凍凝極致的月餅</p>
+    <p style="padding-top:20px;" >每一口的品啜，都是雪藏的美</p>
+
+  </div>
+
+
 
   <script>
       var w = window.innerWidth,
@@ -282,7 +309,7 @@ canvas {
     lights = new Array,
     colors = ['#eee'];
 canvas.setAttribute('width',w);
-canvas.setAttribute('height',h);
+canvas.setAttribute('height',h/1.5);
 function init() {
   time = 0;
   count = 0;
