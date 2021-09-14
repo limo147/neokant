@@ -1,26 +1,25 @@
 <!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+<html lang="en"><head>
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
 
         <title>Neokant-Moon</title>
 
-        <meta name="keywords" content="雪藏月餅">
+        <meta name="keywords" content="雪藏月餅" />
 
-        <meta name="description" content="高品質月餅領導品牌，專為對品質要求的你，提供優質的雪藏月餅。經典雪藏月餅、落英雪藏月餅、冰心可可月餅、中秋禮盒、 ... 送禮最佳伴手禮、犒賞自己的美味、糕餅中的精品。">
+        <meta name="description" content="高品質月餅領導品牌，專為對品質要求的你，提供優質的雪藏月餅。經典雪藏月餅、落英雪藏月餅、冰心可可月餅、中秋禮盒、 ... 送禮最佳伴手禮、犒賞自己的美味、糕餅中的精品。" />
         
         <!-- 分享時顯示 -->
-        <meta property="og:title" content="高品質、雪藏月餅領導品牌，紐康特之月">
-        <meta property="og:type" content="高品質月餅領導品牌，專為對品質要求的你，提供優質的雪藏月餅。經典雪藏月餅、落英雪藏月餅、冰心可可月餅、中秋禮盒、 ... 送禮最佳伴手禮、犒賞自己的美味、糕餅中的精品。">
-        <meta property="og:url" content="https://neokantmoon.herokuapp.com/">
-        <meta property="og:image" content="https://images.pexels.com/photos/5754268/pexels-photo-5754268.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500">
+        <meta property="og:title" content="高品質、雪藏月餅領導品牌，紐康特之月" />
+        <meta property="og:type" content="高品質月餅領導品牌，專為對品質要求的你，提供優質的雪藏月餅。經典雪藏月餅、落英雪藏月餅、冰心可可月餅、中秋禮盒、 ... 送禮最佳伴手禮、犒賞自己的美味、糕餅中的精品。" />
+        <meta property="og:url" content="https://neokantmoon.herokuapp.com/" />
+        <meta property="og:image" content="https://images.pexels.com/photos/5754268/pexels-photo-5754268.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=1&amp;w=500" />
 
-        <link rel="index" title="Neokant-Moon【紐康特之月】" href="https://neokantmoon.herokuapp.com/">
+        <link rel="index" title="Neokant-Moon【紐康特之月】" href="https://neokantmoon.herokuapp.com/" />
         
-        <link rel="sitemap" type="htm" title="Neokant-Moon【紐康特之月】" href="https://neokantmoon.herokuapp.com/Sitemap.xml">
+        <link rel="sitemap" type="htm" title="Neokant-Moon【紐康特之月】" href="https://neokantmoon.herokuapp.com/Sitemap.xml" />
 
-        <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet" />
 
 
         <style>
@@ -207,7 +206,7 @@
             }
 
             /* Codepen Preview Mode */
-            @media only screen and (max-height: 450px) {
+            @media  only screen and (max-height: 450px) {
             .landscape {
                 margin-top: -270px;
             }
@@ -222,18 +221,18 @@
             </h1>
 
 
-            <p >紐康特之月- 雪藏月餅的精品</p>
+            <p>紐康特之月- 雪藏月餅的精品</p>
         </div>
-    <div class='landscape'>
-    <div class='moon'></div>
-    <div class='hills'>
+    <div class="landscape">
+    <div class="moon"></div>
+    <div class="hills">
       <div></div>
       <div></div>
       <div></div>
       <div></div>
       <div></div>
     </div>
-    <div class='tree'>
+    <div class="tree">
       <div>
         <span></span>
       </div>
@@ -290,7 +289,7 @@
       </div>
     </div>
   </div>
-  <canvas id='snow'></canvas>
+  <canvas id="snow" width="412" height="488"></canvas>
   <div style="padding-top:20px;display:flex;flex-direction:column;align-items:center;">
     <h2>
         <a href="/product">
@@ -298,11 +297,11 @@
             WELCOME HOME!
         </a>
     </h2>
-    <p  style="padding-top:20px;">CHILLY COZY</p>
+    <p style="padding-top:20px;">CHILLY COZY</p>
   </div>
   <div style="display:flex;flex-direction:column;align-items:center;">
-    <p style="padding-top:20px;" >以零下-120度封藏的冰心月餅</p>
-    <p style="padding-top:20px;" >每一口的品啜，都是雪藏的美</p>
+    <p style="padding-top:20px;">以零下-120度封藏的冰心月餅</p>
+    <p style="padding-top:20px;">每一口的品啜，都是雪藏的美</p>
 
   </div>
 
@@ -360,5 +359,6 @@ function bubble() {
 init();
 bubble();
   </script>
-    </body>
-</html>
+    
+
+</body></html>
